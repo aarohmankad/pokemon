@@ -1,0 +1,13 @@
+# Blender v2.66 (sub 1) OBJ File: 'BR_Illumise.blend'
+# www.blender.org
+mtllib BR_Illumise.mtl
+o illumise
+v -2.916199 -5.096785 -3.262970
+v -2.916199 -1.155975 -3.262970
+v 1.024611 -1.155975 -3.262970
+vt -0.007879 -0.435848
+vt -0.007168 1.008700
+vt 1.486680 1.007750
+usemtl mat_0
+s 1
+f 1/1 2/2 3/3

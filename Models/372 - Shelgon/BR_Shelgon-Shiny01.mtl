@@ -1,0 +1,123 @@
+# Blender MTL File: 'BR_Shelgon-Shiny01.blend'
+# Material Count: 11
+
+newmtl mat_0
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\komoruu_1_0.tga
+map_d Textures\komoruu_1_0.tga
+
+newmtl mat_1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\komoruu_1_0.tga
+map_d Textures\komoruu_1_0.tga
+
+newmtl mat_10
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\komoruu_1_0.tga
+map_d Textures\komoruu_1_0.tga
+
+newmtl mat_2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\komoruu_1_2.tga
+map_d Textures\komoruu_1_2.tga
+
+newmtl mat_3
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\komoruu_1_4.tga
+map_d Textures\komoruu_1_4.tga
+
+newmtl mat_4
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\komoruu_1_4.tga
+map_d Textures\komoruu_1_4.tga
+
+newmtl mat_5
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\komoruu_1_4.tga
+map_d Textures\komoruu_1_4.tga
+
+newmtl mat_6
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\komoruu_1_2.tga
+map_d Textures\komoruu_1_2.tga
+
+newmtl mat_7
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\komoruu_1_12.tga
+map_d Textures\komoruu_1_12.tga
+
+newmtl mat_8
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\komoruu_1_13.tga
+map_d Textures\komoruu_1_13.tga
+
+newmtl mat_9
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\komoruu_1_0.tga
+map_d Textures\komoruu_1_0.tga

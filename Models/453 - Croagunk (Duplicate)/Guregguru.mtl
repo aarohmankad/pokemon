@@ -1,0 +1,20 @@
+newmtl mat2
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1 
+	Ks 0 0 0
+	Ka 0 0 0
+	map_Kd Textures\GureggruDh.tga
+	map_Ks GureggruDh_s.tga
+	bump GureggruDh_local.tga
+newmtl mat1
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1 
+	Ks 0 0 0
+	Ka 0 0 0
+	map_Kd Textures\GureggruEyeDh.tga
+	map_Ks GureggruEyeDh_s.tga
+	bump GureggruEyeDh_local.tga

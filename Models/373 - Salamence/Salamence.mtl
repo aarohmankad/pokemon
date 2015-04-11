@@ -1,0 +1,22 @@
+# Blender MTL File: 'Salamence.blend'
+# Material Count: 2
+
+newmtl mat1
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\BohmanderDh.tga
+
+newmtl mat2
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\BohmanderEyeDh.tga
