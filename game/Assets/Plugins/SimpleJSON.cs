@@ -78,7 +78,7 @@ namespace SimpleJSON
 		
 		public virtual int Count                   { get { return 0; } }
 
-		public virtual IEnumerable<string> Keys { get { yield break; } }
+		public virtual IEnumerable<string> Keys    { get { yield break; } }
 
 		public virtual void Add (JSONNode aItem)
 		{
