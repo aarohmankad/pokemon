@@ -46,8 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\battles.js" />
      <Compile Include="Assets\Scripts\pokedex.js" />
-     <None Include="Assets\Pokemon\Bulbasoar\HELP AND README.txt" />
+     <Compile Include="Assets\Scripts\pokemon.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
  </Reference>
