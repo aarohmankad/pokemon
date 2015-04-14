@@ -18,7 +18,7 @@ function Update () {
 
 }
 
-var incrementDecrementStat(stat, indeval)
+function incrementDecrementStat(stat, indeval)
 {
 	stats[stat] = stats[stat] + indeval;
 }
