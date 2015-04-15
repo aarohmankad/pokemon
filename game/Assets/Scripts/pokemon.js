@@ -1,5 +1,4 @@
-﻿#pragma strict
-
+﻿
 var index;
 var stats;
 var names;
