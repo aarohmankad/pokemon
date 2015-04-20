@@ -1,0 +1,25 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [atiu9pag 8.14.1.6243]
+    Renderer: AMD Radeon HD 7470
+    Vendor:   ATI
+    VRAM:     1010 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.041 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\145003108\Desktop\NetworkTutorial\Networking Test\network_Data\Managed\UnityScript.Lang.dll (this message is harmless)
