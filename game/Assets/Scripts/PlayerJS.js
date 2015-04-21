@@ -13,7 +13,7 @@ function Awake(){
 	if(!networkView.isMine){
 		enabled=false;
 	}
-	playerID = GetInstanceID();
+	playerID = GetInstanceID().ToString();
 	pokemon = GameObject.Find("pokedex").GetComponent(pokedex).getRandomPokemon(6, "");
 	playerJSON_data = JSON.Parse(playerJSON.text);
 	
