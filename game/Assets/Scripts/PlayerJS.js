@@ -32,7 +32,10 @@ function Update(){
 
 function InputMovement()
 {
+<<<<<<< HEAD
     
+=======
+>>>>>>> d1c2f26d75e88832d32d6d68097ad11bddbdafaa
 }
 
 
