@@ -2,20 +2,18 @@
 
 import System.Net;
 
-var strHostName:String = "";
-strHostName = System.Net.Dns.GetHostName();
-var ipEntry:IPHostEntry = System.Net.Dns.GetHostEntry(strHostName);
-var addr:IPAddress[] = ipEntry.AddressList;
-
-var connectToIP : String = addr[addr.Length-1].ToString();
-var connectPort : int = 25001;
-
-
 function OnGUI ()
 //This is the GUI to start server or to connect to a server as a client
-
 {
+	
+	var strHostName:String = "";
+	strHostName = System.Net.Dns.GetHostName();
+	var ipEntry:IPHostEntry = System.Net.Dns.GetHostEntry(strHostName);
+	var addr:IPAddress[] = ipEntry.AddressList;
 
+	var connectToIP : String = addr[addr.Length-1].ToString();
+	var connectPort : int = 25001;
+	
 	if (Network.peerType == NetworkPeerType.Disconnected){
 	
 		GUILayout.Label("Connection status: Disconnected");

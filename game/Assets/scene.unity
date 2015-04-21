@@ -2850,9 +2850,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a9d1baf41c051e428bfa5556871a0b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  strHostName: 
-  connectToIP: 127.0.0.1
-  connectPort: 25001
 --- !u!81 &1295554831
 AudioListener:
   m_ObjectHideFlags: 0
