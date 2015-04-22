@@ -32,10 +32,18 @@ function Update(){
 
 function InputMovement()
 {
-<<<<<<< HEAD
-    
-=======
->>>>>>> d1c2f26d75e88832d32d6d68097ad11bddbdafaa
+ if (Input.GetKey(KeyCode.W))
+    	gameObject.transform.Translate(0,0,1* speed * Time.deltaTime);
+ 
+    if (Input.GetKey(KeyCode.S))
+        transform.Translate(0,0,-1* speed * Time.deltaTime);
+ 
+    if (Input.GetKey(KeyCode.D))
+       transform.Rotate(Vector3.up*speed*40*Time.deltaTime);
+ 
+    if (Input.GetKey(KeyCode.A))
+      transform.Rotate(Vector3.down*speed*40*Time.deltaTime);
+
 }
 
 

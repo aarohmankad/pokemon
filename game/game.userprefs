@@ -2,12 +2,7 @@
   <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerJS.js">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets\Scripts\PlayerJS.js" Line="29" Column="3" />
-=======
-      <File FileName="Assets\Scripts\PlayerJS.js" Line="34" Column="2" />
-      <File FileName="Assets\Scripts\ConnectJS.js" Line="11" Column="17" />
->>>>>>> d1c2f26d75e88832d32d6d68097ad11bddbdafaa
+      <File FileName="Assets\Scripts\PlayerJS.js" Line="45" Column="62" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
