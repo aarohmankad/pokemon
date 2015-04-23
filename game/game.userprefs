@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerJS.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\MecanimTestStuff\oldAnimNewModel\Assets\motusScript.js">
     <Files>
-      <File FileName="Assets\Scripts\PlayerJS.js" Line="45" Column="62" />
+      <File FileName="..\..\MecanimTestStuff\oldAnimNewModel\Assets\motusScript.js" Line="117" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
