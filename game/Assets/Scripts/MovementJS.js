@@ -24,7 +24,7 @@ function Update () {
 
 	anim.SetFloat ("Speed", direction.magnitude);
 	
-	if(anim.GetCurrentAnimatorStateInfo(0).IsName("JogForward_NtrlFaceFwd")
+	if(anim.GetCurrentAnimatorStateInfo(0).IsName("JogForward_NtrlFaceFwd"))
 	{
 		
 	}
