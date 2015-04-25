@@ -8,7 +8,7 @@
 	
 	var speedModify : int = 2;
 	
-	var walkNum : int = 0;
+	var walkNum : float = 0;
 	var randomIntTime : boolean = false;
 function Start () {
 
@@ -49,10 +49,15 @@ function Update () {
 	}
 	
 	if(randomIntTime)
-		//RandomWalk ();
+		RandomWalk ();
 
 	anim.SetFloat ("Speed", direction.magnitude);
-
+	
+	/*if(Input.GetKeyDown(KeyCode.Space))
+	{
+		var num : int = Random.Range(0,3);
+		print(num);
+	}*/
 }
 
 //Called once per physics loop
@@ -84,6 +89,7 @@ function RandomWalk () {
 		anim.SetBool("Walk02",true);
 		print("w2 true");
 	}
+		
 	randomIntTime = false;
 
 }
