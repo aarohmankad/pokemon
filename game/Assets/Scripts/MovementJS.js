@@ -1,5 +1,5 @@
 ﻿#pragma strict
-
+//http://answers.unity3d.com/questions/589672/playing-random-animation-by-animator-controller.html
 	var speed : float = 6.0;
 	var direction : Vector3 = Vector3.zero;
 	
@@ -7,9 +7,10 @@
 	var anim : Animator;
 	
 	var speedModify : int = 2;
+
+	var randomWalk : boolean = false;
+	var randomRun : boolean = false;
 	
-	var walkNum : float = 0;
-	var randomIntTime : boolean = false;
 function Start () {
 
 	cc = GetComponent(CharacterController);
@@ -38,25 +39,23 @@ function Update () {
 	}
 	
 	if(Input.GetKeyDown(KeyCode.W))
-	{
-		randomIntTime = true;
-	}
-	else
-	{
-		anim.SetBool("Walk01",false);
-		anim.SetBool("Walk",false);
-		anim.SetBool("Walk02",false);
-	}
+		randomWalk = true;
 	
-	if(randomIntTime)
+	if(randomWalk)
 		RandomWalk ();
+		
+	if(Input.GetKeyDown(KeyCode.LeftShift))
+		randomRun = true;
+	
+	if(randomRun)
+		RandomRun ();
 
 	anim.SetFloat ("Speed", direction.magnitude);
 	
 	/*if(Input.GetKeyDown(KeyCode.Space))
 	{
-		var num : int = Random.Range(0,3);
-		print(num);
+		var num : float = Random.Range(0,3);
+		print(num/2);
 	}*/
 }
 
@@ -71,25 +70,23 @@ function FixedUpdate () {
 
 function RandomWalk () {
 
-	walkNum = Random.Range(0,3);
-	print("walk num = " + walkNum);
+	var walkNum : float = Random.Range(0,2);
+	//print("walk num = " + walkNum);
 	
-	if(walkNum == 0)
-	{
-		anim.SetBool("Walk01",true);
-		print("w1 true");
-	}
-	else if(walkNum == 1)
-	{
-		anim.SetBool("Walk",true);
-		print("w true");
-	}
-	else
-	{
-		anim.SetBool("Walk02",true);
-		print("w2 true");
-	}
+	anim.SetFloat("RandomWalk",walkNum);
 		
-	randomIntTime = false;
+	randomWalk = false;
 
+}
+
+function RandomRun () {
+
+	var runNum : float = Random.Range(0,3);
+	runNum = runNum/2;
+	//print("walk num = " + walkNum);
+	
+	anim.SetFloat("RandomRun",runNum);
+		
+	randomRun = false;
+	
 }

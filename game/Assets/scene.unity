@@ -1997,8 +1997,8 @@ MonoBehaviour:
   cc: {fileID: 0}
   anim: {fileID: 0}
   speedModify: 2
-  walkNum: 0
-  randomIntTime: 0
+  randomWalk: 0
+  randomRun: 0
 --- !u!114 &520536326
 MonoBehaviour:
   m_ObjectHideFlags: 0
