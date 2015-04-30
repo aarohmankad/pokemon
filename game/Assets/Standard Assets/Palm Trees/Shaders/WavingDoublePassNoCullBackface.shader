@@ -2,8 +2,8 @@
 	Properties {
 		_WavingTint ("Fade Color", Color) = (.7,.6,.5, 0)
 		_MainTex ("Base (RGB) Alpha (A)", 2D) = "white" {}
-		_SpecColor ("Specular Color", Color) = (0.5, 0.5, 0.5, 1)
-		_Shininess ("Shininess", Range (0.03, 1)) = 0.078125
+		//_SpecColor ("Specular Color", Color) = (0.5, 0.5, 0.5, 1)
+		//_Shininess ("Shininess", Range (0.03, 1)) = 0.078125
 		_BumpMap ("Normalmap", 2D) = "bump" {}
 		_WaveAndDistance ("Wave, distance and speed", Vector) = (12, 3.6, 1, 1)
 		_Cutoff ("Cutoff", float) = 0.5
@@ -42,8 +42,8 @@
 			o.Albedo = c.rgb;
 			o.Alpha = d.a;
 			clip (o.Alpha - _Cutoff);
-			o.Gloss = d.a;
-			o.Specular = _Shininess;
+			//o.Gloss = d.a;
+			//o.Specular = _Shininess;
 			o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));
 		}
 		ENDCG
@@ -64,7 +64,7 @@
 			Material {
 				Diffuse (1,1,1,1)
 				Ambient (1,1,1,1)
-                Specular [_SpecColor]
+                //Specular [_SpecColor]
 			}
 			Lighting On
 			ColorMaterial AmbientAndDiffuse

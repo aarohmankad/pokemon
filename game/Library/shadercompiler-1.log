@@ -1,3 +1,31 @@
-Base path: C:/Users/Kodi.Kodi-PC/Documents/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-1-6008
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-4000
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=2219 outsize=3064 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5496 outsize=6531 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5496 outsize=2168 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3081 outsize=6182 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3081 outsize=2493 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2921 outsize=4581 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2921 outsize=1948 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4920 outsize=5491 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4920 outsize=1632 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2251 outsize=3224 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2251 outsize=990 kw=SHADOWS_DEPTH ok=1
+Cmd: preprocess
+  insize=2219 outsize=3064 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3081 outsize=5402 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3081 outsize=2022 kw=DIRECTIONAL ok=1
