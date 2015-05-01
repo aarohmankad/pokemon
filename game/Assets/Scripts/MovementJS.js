@@ -52,6 +52,9 @@ function Update () {
 
 	anim.SetFloat ("Speed", direction.magnitude);
 	
+	if(Input.GetKeyDown(KeyCode.Space))
+		anim.SetTrigger("Jump");
+	
 	/*if(Input.GetKeyDown(KeyCode.Space))
 	{
 		var num : float = Random.Range(0,3);
