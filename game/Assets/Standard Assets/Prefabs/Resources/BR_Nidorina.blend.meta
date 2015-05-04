@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: 8b09b58c5e6154d42baf6ac311676f5f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: nidorina_mat_0
+    100004: nidorina_mat_1
+    100006: nidorina_mat_10
+    100008: nidorina_mat_11
+    100010: nidorina_mat_2
+    100012: nidorina_mat_3
+    100014: nidorina_mat_4
+    100016: nidorina_mat_5
+    100018: nidorina_mat_6
+    100020: nidorina_mat_7
+    100022: nidorina_mat_8
+    100024: nidorina_mat_9
+    400000: //RootNode
+    400002: nidorina_mat_0
+    400004: nidorina_mat_1
+    400006: nidorina_mat_10
+    400008: nidorina_mat_11
+    400010: nidorina_mat_2
+    400012: nidorina_mat_3
+    400014: nidorina_mat_4
+    400016: nidorina_mat_5
+    400018: nidorina_mat_6
+    400020: nidorina_mat_7
+    400022: nidorina_mat_8
+    400024: nidorina_mat_9
+    2300000: nidorina_mat_0
+    2300002: nidorina_mat_1
+    2300004: nidorina_mat_10
+    2300006: nidorina_mat_11
+    2300008: nidorina_mat_2
+    2300010: nidorina_mat_3
+    2300012: nidorina_mat_4
+    2300014: nidorina_mat_5
+    2300016: nidorina_mat_6
+    2300018: nidorina_mat_7
+    2300020: nidorina_mat_8
+    2300022: nidorina_mat_9
+    3300000: nidorina_mat_0
+    3300002: nidorina_mat_1
+    3300004: nidorina_mat_10
+    3300006: nidorina_mat_11
+    3300008: nidorina_mat_2
+    3300010: nidorina_mat_3
+    3300012: nidorina_mat_4
+    3300014: nidorina_mat_5
+    3300016: nidorina_mat_6
+    3300018: nidorina_mat_7
+    3300020: nidorina_mat_8
+    3300022: nidorina_mat_9
+    4300000: nidorina_mat_10
+    4300002: nidorina_mat_8
+    4300004: nidorina_mat_2
+    4300006: nidorina_mat_9
+    4300008: nidorina_mat_3
+    4300010: nidorina_mat_0
+    4300012: nidorina_mat_1
+    4300014: nidorina_mat_6
+    4300016: nidorina_mat_7
+    4300018: nidorina_mat_11
+    4300020: nidorina_mat_4
+    4300022: nidorina_mat_5
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
