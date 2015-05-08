@@ -1,0 +1,73 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7470 (ID=0x6778)
+    Vendor:   ATI
+    VRAM:     1010 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.043 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Boo.Lang.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+The tree PalmTree_dual_ 2sided couldn't be instanced because the prefab contains no valid mesh renderer
+ 
+(Filename:  Line: 53)
+
+The tree PalmTree_dual-bended_2sided couldn't be instanced because the prefab contains no valid mesh renderer
+ 
+(Filename:  Line: 53)
+
+The tree PalmTree_trio_1sided couldn't be instanced because the prefab contains no valid mesh renderer
+ 
+(Filename:  Line: 53)
+
+Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\System.dll (this message is harmless)
+MissingMethodException: UnityEngine.NetworkView.RPC
+  at Boo.Lang.Runtime.DynamicDispatching.MethodDispatcherFactory.ProduceExtensionDispatcher () [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.DynamicDispatching.MethodDispatcherFactory.Create () [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.RuntimeServices.DoCreateMethodDispatcher (System.Object target, System.Type targetType, System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.RuntimeServices.CreateMethodDispatcher (System.Object target, System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.RuntimeServices+<Invoke>c__AnonStorey15.<>m__9 () [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.DynamicDispatching.DispatcherCache.Get (Boo.Lang.Runtime.DynamicDispatching.DispatcherKey key, Boo.Lang.Runtime.DynamicDispatching.DispatcherFactory factory) [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.RuntimeServices.GetDispatcher (System.Object target, System.String cacheKeyName, System.Type[] cacheKeyTypes, Boo.Lang.Runtime.DynamicDispatching.DispatcherFactory factory) [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.RuntimeServices.GetDispatcher (System.Object target, System.Object[] args, System.String cacheKeyName, Boo.Lang.Runtime.DynamicDispatching.DispatcherFactory factory) [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.RuntimeServices.Invoke (System.Object target, System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityScript.Lang.UnityRuntimeServices.Invoke (System.Object target, System.String name, System.Object[] args, System.Type scriptBaseType) [0x00000] in <filename unknown>:0 
+  at PlayerJS.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Network:INTERNAL_CALL_Instantiate(Object, Vector3&, Quaternion&, Int32)
+UnityEngine.Network:Instantiate(Object, Vector3, Quaternion, Int32)
+SpawnerJS:Spawnplayer()
+SpawnerJS:OnServerInitialized()
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+ConnectJS:OnGUI()
+ 
+(Filename:  Line: -1)
+
+Clean up a bit after server quit
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 3.846663 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 727.
+Total: 0.594927 ms (FindLiveObjects: 0.026298 ms CreateObjectMapping: 0.010262 ms MarkObjects: 0.235725 ms  DeleteObjects: 0.004490 ms)
+

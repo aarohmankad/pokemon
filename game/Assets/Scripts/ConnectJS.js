@@ -1,4 +1,5 @@
-﻿//Default Ip and Port
+﻿#pragma strict
+//Default Ip and Port
 
 import System.Net;
 

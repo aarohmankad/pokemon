@@ -10,10 +10,13 @@ var pokemon;
 var playerID;
 
 function Awake(){
+//	print(
 	if(!networkView.isMine){
 		enabled=false;
 	}
+	
 	playerID = GetInstanceID().ToString();
+		
 	pokemon = GameObject.Find("pokedex").GetComponent(pokedex).getRandomPokemon(6, "");
 	playerJSON_data = JSON.Parse(playerJSON.text);
 	
@@ -21,44 +24,22 @@ function Awake(){
 	{
 		playerJSON_data[playerID][i] = pokemon[i];
 	}
+	GetComponent(NetworkView).RPC("syncJSON", RPC.AllBuffered, playerJSON_data.ToString());
+}
+
+@RPC
+function syncJSON (_pj : String) {
+	playerJSON_data = JSON.Parse(_pj);
 }
 
 function Update(){
-
-	if(networkView.isMine)
-		InputMovement();
-}
+		
+	if(Input.GetKeyDown(KeyCode.Keypad0))
+	{
+		GameObject.Find("gladOS").GetComponent(gladOS).player1 = playerID;
+		GameObject.Find("gladOS").GetComponent(gladOS).player2 = "Dave";
+		Application.LoadLevel("battle");
+		print("0");
+	}
 	
-
-function InputMovement()
-{
- if (Input.GetKey(KeyCode.W))
-    	gameObject.transform.Translate(0,0,1* speed * Time.deltaTime);
- 
-    if (Input.GetKey(KeyCode.S))
-        transform.Translate(0,0,-1* speed * Time.deltaTime);
- 
-    if (Input.GetKey(KeyCode.D))
-       transform.Rotate(Vector3.up*speed*40*Time.deltaTime);
- 
-    if (Input.GetKey(KeyCode.A))
-      transform.Rotate(Vector3.down*speed*40*Time.deltaTime);
-
-}
-
-
-function OnSerializeNetworkView(stream : BitStream, info : NetworkMessageInfo)
-{
-	if (stream.isWriting){
-		
-		
-		var pos : Vector3 = transform.position;		
-		stream.Serialize(pos);
-				
-	}else{
-		
-		var posReceive : Vector3 = Vector3.zero;
-		stream.Serialize(posReceive); 
-		transform.position = Vector3.Lerp(transform.position, posReceive,1);	
-	} 
 }

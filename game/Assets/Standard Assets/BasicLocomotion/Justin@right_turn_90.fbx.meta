@@ -185,7 +185,7 @@ ModelImporter:
     400176: Justin:TongueBack
     400178: Justin:TongueTip
     400180: //RootNode
-    7400000: mixamo.com
+    7400000: right_turn_90
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -202,7 +202,215 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: right_turn_90
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Justin:Hips
+        weight: 1
+      - path: Justin:Hips/Justin:LeftUpLeg
+        weight: 1
+      - path: Justin:Hips/Justin:LeftUpLeg/Justin:LeftLeg
+        weight: 1
+      - path: Justin:Hips/Justin:LeftUpLeg/Justin:LeftLeg/Justin:LeftFoot
+        weight: 1
+      - path: Justin:Hips/Justin:LeftUpLeg/Justin:LeftLeg/Justin:LeftFoot/Justin:LeftToeBase
+        weight: 1
+      - path: Justin:Hips/Justin:LeftUpLeg/Justin:LeftLeg/Justin:LeftFoot/Justin:LeftToeBase/Justin:LeftFootToeBase_End
+        weight: 0
+      - path: Justin:Hips/Justin:RightUpLeg
+        weight: 1
+      - path: Justin:Hips/Justin:RightUpLeg/Justin:RightLeg
+        weight: 1
+      - path: Justin:Hips/Justin:RightUpLeg/Justin:RightLeg/Justin:RightFoot
+        weight: 1
+      - path: Justin:Hips/Justin:RightUpLeg/Justin:RightLeg/Justin:RightFoot/Justin:RightToeBase
+        weight: 1
+      - path: Justin:Hips/Justin:RightUpLeg/Justin:RightLeg/Justin:RightFoot/Justin:RightToeBase/Justin:RightFootToeBase_End
+        weight: 0
+      - path: Justin:Hips/Justin:Spine
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandIndex1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandIndex1/Justin:LeftHandIndex2
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandIndex1/Justin:LeftHandIndex2/Justin:LeftHandIndex3
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandIndex1/Justin:LeftHandIndex2/Justin:LeftHandIndex3/Justin:LeftHandIndex4
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandMiddle1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandMiddle1/Justin:LeftHandMiddle2
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandMiddle1/Justin:LeftHandMiddle2/Justin:LeftHandMiddle3
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandMiddle1/Justin:LeftHandMiddle2/Justin:LeftHandMiddle3/Justin:LeftHandMiddle4
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandPinky1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandPinky1/Justin:LeftHandPinky2
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandPinky1/Justin:LeftHandPinky2/Justin:LeftHandPinky3
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandPinky1/Justin:LeftHandPinky2/Justin:LeftHandPinky3/Justin:LeftHandPinky4
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandRing1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandRing1/Justin:LeftHandRing2
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandRing1/Justin:LeftHandRing2/Justin:LeftHandRing3
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandRing1/Justin:LeftHandRing2/Justin:LeftHandRing3/Justin:LeftHandRing4
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandThumb1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandThumb1/Justin:LeftHandThumb2
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandThumb1/Justin:LeftHandThumb2/Justin:LeftHandThumb3
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:LeftShoulder/Justin:LeftArm/Justin:LeftForeArm/Justin:LeftHand/Justin:LeftHandThumb1/Justin:LeftHandThumb2/Justin:LeftHandThumb3/Justin:LeftHandThumb4
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:HeadTop_End
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:Jaw
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:Jaw/Justin:JawEND
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:Jaw/Justin:LeftLipCorner
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:Jaw/Justin:LeftLipLower
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:Jaw/Justin:RightLipCorner
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:Jaw/Justin:RightLipLower
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:Jaw/Justin:TongueBack
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:Jaw/Justin:TongueTip
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:LeftCheek
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:LeftEye
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:LeftEyelidLower
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:LeftEyelidUpper
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:LeftInnerBrow
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:LeftIOuterBrow
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:LeftLipUpper
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:LeftNostril
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:RightCheek
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:RightEye
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:RightEyelidLower
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:RightEyelidUpper
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:RightInnerBrow
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:RightIOuterBrow
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:RightLipUpper
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:Neck/Justin:Neck1/Justin:Head/Justin:RightNostril
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandIndex1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandIndex1/Justin:RightHandIndex2
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandIndex1/Justin:RightHandIndex2/Justin:RightHandIndex3
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandIndex1/Justin:RightHandIndex2/Justin:RightHandIndex3/Justin:RightHandIndex4
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandMiddle1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandMiddle1/Justin:RightHandMiddle2
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandMiddle1/Justin:RightHandMiddle2/Justin:RightHandMiddle3
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandMiddle1/Justin:RightHandMiddle2/Justin:RightHandMiddle3/Justin:RightHandMiddle4
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandPinky1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandPinky1/Justin:RightHandPinky2
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandPinky1/Justin:RightHandPinky2/Justin:RightHandPinky3
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandPinky1/Justin:RightHandPinky2/Justin:RightHandPinky3/Justin:RightHandPinky4
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandRing1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandRing1/Justin:RightHandRing2
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandRing1/Justin:RightHandRing2/Justin:RightHandRing3
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandRing1/Justin:RightHandRing2/Justin:RightHandRing3/Justin:RightHandRing4
+        weight: 0
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandThumb1
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandThumb1/Justin:RightHandThumb2
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandThumb1/Justin:RightHandThumb2/Justin:RightHandThumb3
+        weight: 1
+      - path: Justin:Hips/Justin:Spine/Justin:Spine1/Justin:Spine2/Justin:RightShoulder/Justin:RightArm/Justin:RightForeArm/Justin:RightHand/Justin:RightHandThumb1/Justin:RightHandThumb2/Justin:RightHandThumb3/Justin:RightHandThumb4
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
