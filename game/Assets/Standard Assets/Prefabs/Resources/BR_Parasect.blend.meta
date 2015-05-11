@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: c37bcf94dea06f242944236031e9a081
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: parasect_mat_0
+    100004: parasect_mat_1
+    100006: parasect_mat_10
+    100008: parasect_mat_11
+    100010: parasect_mat_12
+    100012: parasect_mat_2
+    100014: parasect_mat_3
+    100016: parasect_mat_4
+    100018: parasect_mat_5
+    100020: parasect_mat_6
+    100022: parasect_mat_7
+    100024: parasect_mat_8
+    100026: parasect_mat_9
+    400000: //RootNode
+    400002: parasect_mat_0
+    400004: parasect_mat_1
+    400006: parasect_mat_10
+    400008: parasect_mat_11
+    400010: parasect_mat_12
+    400012: parasect_mat_2
+    400014: parasect_mat_3
+    400016: parasect_mat_4
+    400018: parasect_mat_5
+    400020: parasect_mat_6
+    400022: parasect_mat_7
+    400024: parasect_mat_8
+    400026: parasect_mat_9
+    2300000: parasect_mat_0
+    2300002: parasect_mat_1
+    2300004: parasect_mat_10
+    2300006: parasect_mat_11
+    2300008: parasect_mat_12
+    2300010: parasect_mat_2
+    2300012: parasect_mat_3
+    2300014: parasect_mat_4
+    2300016: parasect_mat_5
+    2300018: parasect_mat_6
+    2300020: parasect_mat_7
+    2300022: parasect_mat_8
+    2300024: parasect_mat_9
+    3300000: parasect_mat_0
+    3300002: parasect_mat_1
+    3300004: parasect_mat_10
+    3300006: parasect_mat_11
+    3300008: parasect_mat_12
+    3300010: parasect_mat_2
+    3300012: parasect_mat_3
+    3300014: parasect_mat_4
+    3300016: parasect_mat_5
+    3300018: parasect_mat_6
+    3300020: parasect_mat_7
+    3300022: parasect_mat_8
+    3300024: parasect_mat_9
+    4300000: parasect_mat_4
+    4300002: parasect_mat_10
+    4300004: parasect_mat_12
+    4300006: parasect_mat_3
+    4300008: parasect_mat_2
+    4300010: parasect_mat_1
+    4300012: parasect_mat_11
+    4300014: parasect_mat_0
+    4300016: parasect_mat_7
+    4300018: parasect_mat_9
+    4300020: parasect_mat_6
+    4300022: parasect_mat_8
+    4300024: parasect_mat_5
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 791d1abf5c0f4a74592c4dfa041c4256
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: menokurage_mat_0
+    100004: menokurage_mat_1
+    100006: menokurage_mat_10
+    100008: menokurage_mat_11
+    100010: menokurage_mat_12
+    100012: menokurage_mat_13
+    100014: menokurage_mat_14
+    100016: menokurage_mat_2
+    100018: menokurage_mat_3
+    100020: menokurage_mat_4
+    100022: menokurage_mat_5
+    100024: menokurage_mat_6
+    100026: menokurage_mat_7
+    100028: menokurage_mat_8
+    100030: menokurage_mat_9
+    400000: //RootNode
+    400002: menokurage_mat_0
+    400004: menokurage_mat_1
+    400006: menokurage_mat_10
+    400008: menokurage_mat_11
+    400010: menokurage_mat_12
+    400012: menokurage_mat_13
+    400014: menokurage_mat_14
+    400016: menokurage_mat_2
+    400018: menokurage_mat_3
+    400020: menokurage_mat_4
+    400022: menokurage_mat_5
+    400024: menokurage_mat_6
+    400026: menokurage_mat_7
+    400028: menokurage_mat_8
+    400030: menokurage_mat_9
+    2300000: menokurage_mat_0
+    2300002: menokurage_mat_1
+    2300004: menokurage_mat_10
+    2300006: menokurage_mat_11
+    2300008: menokurage_mat_12
+    2300010: menokurage_mat_13
+    2300012: menokurage_mat_14
+    2300014: menokurage_mat_2
+    2300016: menokurage_mat_3
+    2300018: menokurage_mat_4
+    2300020: menokurage_mat_5
+    2300022: menokurage_mat_6
+    2300024: menokurage_mat_7
+    2300026: menokurage_mat_8
+    2300028: menokurage_mat_9
+    3300000: menokurage_mat_0
+    3300002: menokurage_mat_1
+    3300004: menokurage_mat_10
+    3300006: menokurage_mat_11
+    3300008: menokurage_mat_12
+    3300010: menokurage_mat_13
+    3300012: menokurage_mat_14
+    3300014: menokurage_mat_2
+    3300016: menokurage_mat_3
+    3300018: menokurage_mat_4
+    3300020: menokurage_mat_5
+    3300022: menokurage_mat_6
+    3300024: menokurage_mat_7
+    3300026: menokurage_mat_8
+    3300028: menokurage_mat_9
+    4300000: menokurage_mat_2
+    4300002: menokurage_mat_8
+    4300004: menokurage_mat_3
+    4300006: menokurage_mat_13
+    4300008: menokurage_mat_9
+    4300010: menokurage_mat_4
+    4300012: menokurage_mat_11
+    4300014: menokurage_mat_5
+    4300016: menokurage_mat_6
+    4300018: menokurage_mat_14
+    4300020: menokurage_mat_7
+    4300022: menokurage_mat_12
+    4300024: menokurage_mat_10
+    4300026: menokurage_mat_0
+    4300028: menokurage_mat_1
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

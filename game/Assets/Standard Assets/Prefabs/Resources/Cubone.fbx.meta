@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: 497b5b92a83db974595f99b5b1ebd412
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: polygon0_mat1
+    100004: polygon1_mat3
+    100006: polygon2_mat4
+    100008: polygon3_mat5
+    100010: polygon4_mat6
+    100012: polygon5_mat7
+    100014: polygon6_mat8
+    100016: polygon7_mat9
+    100018: polygon8_mat10
+    100020: polygon9_mat2
+    400000: //RootNode
+    400002: polygon0_mat1
+    400004: polygon1_mat3
+    400006: polygon2_mat4
+    400008: polygon3_mat5
+    400010: polygon4_mat6
+    400012: polygon5_mat7
+    400014: polygon6_mat8
+    400016: polygon7_mat9
+    400018: polygon8_mat10
+    400020: polygon9_mat2
+    2300000: polygon0_mat1
+    2300002: polygon1_mat3
+    2300004: polygon2_mat4
+    2300006: polygon3_mat5
+    2300008: polygon4_mat6
+    2300010: polygon5_mat7
+    2300012: polygon6_mat8
+    2300014: polygon7_mat9
+    2300016: polygon8_mat10
+    2300018: polygon9_mat2
+    3300000: polygon0_mat1
+    3300002: polygon1_mat3
+    3300004: polygon2_mat4
+    3300006: polygon3_mat5
+    3300008: polygon4_mat6
+    3300010: polygon5_mat7
+    3300012: polygon6_mat8
+    3300014: polygon7_mat9
+    3300016: polygon8_mat10
+    3300018: polygon9_mat2
+    4300000: polygon0_mat1
+    4300002: polygon8_mat10
+    4300004: polygon3_mat5
+    4300006: polygon2_mat4
+    4300008: polygon7_mat9
+    4300010: polygon1_mat3
+    4300012: polygon4_mat6
+    4300014: polygon6_mat8
+    4300016: polygon5_mat7
+    4300018: polygon9_mat2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

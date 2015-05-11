@@ -1,0 +1,118 @@
+fileFormatVersion: 2
+guid: d57edfd6c4c881a4e840b9b7dcf693f8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: boober_mat_0
+    100002: boober_mat_1
+    100004: boober_mat_10
+    100006: boober_mat_2
+    100008: boober_mat_3
+    100010: boober_mat_4
+    100012: boober_mat_5
+    100014: boober_mat_6
+    100016: boober_mat_7
+    100018: boober_mat_8
+    100020: boober_mat_9
+    100022: //RootNode
+    400000: boober_mat_0
+    400002: boober_mat_1
+    400004: boober_mat_10
+    400006: boober_mat_2
+    400008: boober_mat_3
+    400010: boober_mat_4
+    400012: boober_mat_5
+    400014: boober_mat_6
+    400016: boober_mat_7
+    400018: boober_mat_8
+    400020: boober_mat_9
+    400022: //RootNode
+    2300000: boober_mat_0
+    2300002: boober_mat_1
+    2300004: boober_mat_10
+    2300006: boober_mat_2
+    2300008: boober_mat_3
+    2300010: boober_mat_4
+    2300012: boober_mat_5
+    2300014: boober_mat_6
+    2300016: boober_mat_7
+    2300018: boober_mat_8
+    2300020: boober_mat_9
+    3300000: boober_mat_0
+    3300002: boober_mat_1
+    3300004: boober_mat_10
+    3300006: boober_mat_2
+    3300008: boober_mat_3
+    3300010: boober_mat_4
+    3300012: boober_mat_5
+    3300014: boober_mat_6
+    3300016: boober_mat_7
+    3300018: boober_mat_8
+    3300020: boober_mat_9
+    4300000: boober_mat_1
+    4300002: boober_mat_0
+    4300004: boober_mat_3
+    4300006: boober_mat_2
+    4300008: boober_mat_5
+    4300010: boober_mat_4
+    4300012: boober_mat_7
+    4300014: boober_mat_6
+    4300016: boober_mat_10
+    4300018: boober_mat_9
+    4300020: boober_mat_8
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
