@@ -1,0 +1,77 @@
+fileFormatVersion: 2
+guid: 212d2b3f815047f409caf71dcdc06a08
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: plant_mesh_03
+    100002: //RootNode
+    100004: TinyWeed_17_1sided
+    100006: TinyWeed_17_2sided
+    400000: plant_mesh_03
+    400002: //RootNode
+    400004: TinyWeed_17_1sided
+    400006: TinyWeed_17_2sided
+    2300000: plant_mesh_03
+    2300002: TinyWeed_17_1sided
+    2300004: TinyWeed_17_2sided
+    3300000: plant_mesh_03
+    3300002: TinyWeed_17_1sided
+    3300004: TinyWeed_17_2sided
+    4300000: plant_mesh_03
+    4300002: TinyWeed_17_1sided
+    4300004: TinyWeed_17_2sided
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0149999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

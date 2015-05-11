@@ -8,4 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/scene.unity
   - enabled: 1
-    path: Assets/Scenes/battle.unity
+    path: Assets/Scenes/forestBattle.unity

@@ -54,11 +54,13 @@
      <Compile Include="Assets\Rain Storm Effects\Scripts\LockRotation.cs" />
      <None Include="Assets\Standard Assets\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
      <None Include="Assets\Standard Assets\MoveMotionPack\SampleScene\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\NeatWolf\ParticleFX02\_Shaders\NW_Particle AddSmooth.shader" />
      <None Include="Assets\Standard Assets\MoveMotionPack\SampleScene\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Standard Assets\MoveMotionPack\SampleScene\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Allsky\AllSkyDemoEnvironment\Specular Snow Vertex Colours.shader" />
      <None Include="Assets\AshMan\Credit.txt" />
+     <None Include="Assets\NeatWolf\ParticleFX02\_Docs\Readme.txt" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
      <None Include="Assets\Allsky\allsky_readme.txt" />
      <None Include="Assets\Standard Assets\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
