@@ -147,9 +147,9 @@ function InputMovement()
 		RandomRun ();
 		
 	if(anim.GetCurrentAnimatorStateInfo(0).IsName("Random Run"))
-		rotateModify = 1;
-	else 
 		rotateModify = 1.5;
+	else 
+		rotateModify = 2;
 		
 	if(Input.GetKey(KeyCode.D))
 		transform.Rotate (0, 1 * rotateModify, 0);
