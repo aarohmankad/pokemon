@@ -53,6 +53,7 @@
      <Compile Include="Assets\52SpecialEffectPack\Legacy Effect Editor\csLegacyEffectEditor.cs" />
      <Compile Include="Assets\Rain Storm Effects\Scripts\LockRotation.cs" />
      <None Include="Assets\Standard Assets\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
+     <None Include="Assets\Instructions.txt" />
      <None Include="Assets\Standard Assets\MoveMotionPack\SampleScene\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\NeatWolf\ParticleFX02\_Shaders\NW_Particle AddSmooth.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />

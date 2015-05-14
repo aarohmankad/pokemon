@@ -1,0 +1,8 @@
+Welcome to our awesome PokYeemon game!
+
+To rotate the camera around Ash to get some sick in game dramatic shots, LEFT click and drag the mouse around. When you let go of the mouse, the camera will rotate back to its original 
+position after about 1 second.
+
+To control Ash, use the WASD keys. W moves him forward, S moves him backward, A rotates him to the left, and D rotates him to the right. Press and hold SHIFT while moving forward to
+make him sprint, and press the SPACE BAR to jump. If you play close attention while walking and running, you might notice the super intense randomized animations that play, and if 
+you come across a bug, we meant for it to be there;) 
