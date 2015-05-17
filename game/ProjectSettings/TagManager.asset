@@ -5,6 +5,13 @@ TagManager:
   tags:
   - pokedex
   - terrain
+  - ice
+  - fire
+  - desert
+  - water
+  - 
+  - BotPan
+  - text
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

@@ -6,26 +6,27 @@ Direct3D:
     Vendor:   ATI
     VRAM:     1010 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
-Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.043 seconds
+Platform assembly: C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found.
 <RI> Input initialized.
-Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\UnityScript.Lang.dll (this message is harmless)
-Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\373000378\Desktop\pokemon\game\pokemon_Data\Managed\System.dll (this message is harmless)
 WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
 The tree PalmTree_dual_ 2sided couldn't be instanced because the prefab contains no valid mesh renderer
  
@@ -39,35 +40,55 @@ The tree PalmTree_trio_1sided couldn't be instanced because the prefab contains 
  
 (Filename:  Line: 53)
 
-Platform assembly: C:\Users\154002650\Desktop\CS3-2\pokemon\game\pokemon_Data\Managed\System.dll (this message is harmless)
-MissingMethodException: UnityEngine.NetworkView.RPC
-  at Boo.Lang.Runtime.DynamicDispatching.MethodDispatcherFactory.ProduceExtensionDispatcher () [0x00000] in <filename unknown>:0 
-  at Boo.Lang.Runtime.DynamicDispatching.MethodDispatcherFactory.Create () [0x00000] in <filename unknown>:0 
-  at Boo.Lang.Runtime.RuntimeServices.DoCreateMethodDispatcher (System.Object target, System.Type targetType, System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
-  at Boo.Lang.Runtime.RuntimeServices.CreateMethodDispatcher (System.Object target, System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
-  at Boo.Lang.Runtime.RuntimeServices+<Invoke>c__AnonStorey15.<>m__9 () [0x00000] in <filename unknown>:0 
-  at Boo.Lang.Runtime.DynamicDispatching.DispatcherCache.Get (Boo.Lang.Runtime.DynamicDispatching.DispatcherKey key, Boo.Lang.Runtime.DynamicDispatching.DispatcherFactory factory) [0x00000] in <filename unknown>:0 
-  at Boo.Lang.Runtime.RuntimeServices.GetDispatcher (System.Object target, System.String cacheKeyName, System.Type[] cacheKeyTypes, Boo.Lang.Runtime.DynamicDispatching.DispatcherFactory factory) [0x00000] in <filename unknown>:0 
-  at Boo.Lang.Runtime.RuntimeServices.GetDispatcher (System.Object target, System.Object[] args, System.String cacheKeyName, Boo.Lang.Runtime.DynamicDispatching.DispatcherFactory factory) [0x00000] in <filename unknown>:0 
-  at Boo.Lang.Runtime.RuntimeServices.Invoke (System.Object target, System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
-  at UnityScript.Lang.UnityRuntimeServices.Invoke (System.Object target, System.String name, System.Object[] args, System.Type scriptBaseType) [0x00000] in <filename unknown>:0 
-  at PlayerJS.Awake () [0x00000] in <filename unknown>:0 
-UnityEngine.Network:INTERNAL_CALL_Instantiate(Object, Vector3&, Quaternion&, Int32)
-UnityEngine.Network:Instantiate(Object, Vector3, Quaternion, Int32)
-SpawnerJS:Spawnplayer()
-SpawnerJS:OnServerInitialized()
-UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
-ConnectJS:OnGUI()
+UnloadTime: 4.684634 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 135 unused Assets to reduce memory usage. Loaded Objects now: 7410.
+Total: 124.506668 ms (FindLiveObjects: 0.239250 ms CreateObjectMapping: 0.121870 ms MarkObjects: 120.099449 ms  DeleteObjects: 3.646170 ms)
+
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+The tree PalmTree_dual_ 2sided couldn't be instanced because the prefab contains no valid mesh renderer
+ 
+(Filename:  Line: 53)
+
+The tree PalmTree_dual-bended_2sided couldn't be instanced because the prefab contains no valid mesh renderer
+ 
+(Filename:  Line: 53)
+
+The tree PalmTree_trio_1sided couldn't be instanced because the prefab contains no valid mesh renderer
+ 
+(Filename:  Line: 53)
+
+UnloadTime: 2.917834 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 7863.
+Total: 122.868790 ms (FindLiveObjects: 0.254324 ms CreateObjectMapping: 0.138868 ms MarkObjects: 120.760437 ms  DeleteObjects: 1.337367 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerJS.OnLevelWasLoaded () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-Clean up a bit after server quit
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerJS.OnLevelWasLoaded () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+(Filename:  Line: -1)
 
-UnloadTime: 3.846663 ms
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+UnloadTime: 6.012060 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 727.
-Total: 0.594927 ms (FindLiveObjects: 0.026298 ms CreateObjectMapping: 0.010262 ms MarkObjects: 0.235725 ms  DeleteObjects: 0.004490 ms)
+Unloading 134 unused Assets to reduce memory usage. Loaded Objects now: 7555.
+Total: 126.606049 ms (FindLiveObjects: 0.302110 ms CreateObjectMapping: 0.124115 ms MarkObjects: 122.276764 ms  DeleteObjects: 3.571444 ms)
 
+NullReferenceException: Object reference not set to an instance of an object
+  at Boo.Lang.Runtime.RuntimeServices.GetDispatcher (System.Object target, System.String cacheKeyName, System.Type[] cacheKeyTypes, Boo.Lang.Runtime.DynamicDispatching.DispatcherFactory factory) [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.RuntimeServices.GetDispatcher (System.Object target, System.Object[] args, System.String cacheKeyName, Boo.Lang.Runtime.DynamicDispatching.DispatcherFactory factory) [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.RuntimeServices.GetSlice (System.Object target, System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.DynamicDispatching.SliceDispatcherFactory+<CreateGetter>c__AnonStorey11.<>m__4 (System.Object o, System.Object[] arguments) [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.RuntimeServices.GetSlice (System.Object target, System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at PlayerJS.OnLevelWasLoaded () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported

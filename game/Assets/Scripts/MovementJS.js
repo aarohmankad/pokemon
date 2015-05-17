@@ -2,7 +2,7 @@
 #pragma implicit
 #pragma downcast
 //http://answers.unity3d.com/questions/589672/playing-random-animation-by-animator-controller.html
-	private var speed : float = 6.0;
+	var speed : float = 6.0;
 	private var directionVertical : Vector3 = Vector3.zero;
 	private var directionHorizontal : Vector3 = Vector3.zero;
 	
@@ -10,7 +10,7 @@
 	var anim : Animator;
 	
 	private var speedModify : int = 2;
-	private var rotateModify : float = 1.5;
+	private var rotateModify : float = 1.5000000000000;
 
 	private var randomWalk : boolean = false;
 	private var randomRun : boolean = false;
@@ -41,8 +41,7 @@ function Start () {
 
 function Update () {
 	
-	if(networkView.isMine)
-		InputMovement();
+	InputMovement();
 		
 	if (!useFixedUpdate)
 		UpdateFunction();
