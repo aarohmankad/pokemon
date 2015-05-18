@@ -11,8 +11,8 @@ function Awake () {
 function Update () {}
 
 function getStats(index)
-{
-	return pokedex_data[index]['base_stats'];
+{ 
+ 	return pokedex_data[index]['base_stats'];
 }
 function getNames(index)
 {

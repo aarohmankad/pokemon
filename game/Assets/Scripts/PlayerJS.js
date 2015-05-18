@@ -7,6 +7,8 @@ var IGM;
 var mainPos : Vector3;
 var enemy;
 var pokemonModels;
+var pokeOwn : GameObject;
+var FinalGUI: GameObject;
 
 var CanvasObj : GameObject;
 
@@ -55,10 +57,11 @@ function OnLevelWasLoaded()
 				poke.AddComponent('pokemon');
 				poke.GetComponent('pokemon').index = enemy['name']['en'];
 				poke.GetComponent('pokemon').aggregateStats();
+				poke.tag="wild";
 			}
 			if(Regex.IsMatch(pokemonModels[j].ToString(), pokemon[0]['name']['en']) && typeof(pokemonModels[j]) == GameObject)
 			{
-				var pokeOwn : GameObject;
+				
 				
 				//snow
 				if(Application.loadedLevel== 3)
@@ -94,9 +97,12 @@ function OnLevelWasLoaded()
 				pokeOwn.AddComponent('pokemon');
 				pokeOwn.GetComponent('pokemon').index = pokemon[0]['name']['en'];
 				pokeOwn.GetComponent('pokemon').aggregateStats();
+				pokeOwn.tag="own";
 			}
 		}
-		Instantiate(CanvasObj, Vector3.zero, Quaternion.identity);
+		 Instantiate(CanvasObj, Vector3.zero, Quaternion.identity);
+		 FinalGUI=GameObject.FindGameObjectWithTag("Move1");
+		 FinalGUI.GetComponent('Button').onClick.Addlistener(this.DoDamage);
 		GetComponent(MovementJS).enabled = false;
 		trainerRends = GameObject.Find("Pokemon Trainer").GetComponentsInChildren(Renderer);
 		
@@ -218,14 +224,20 @@ function OnTriggerStay(other : Collider)
 
 function DoDamage()
 {
-	enemy.incrementDecrementStat('hp', -1 * pokemon[0]["moves"][0]);
-	pokemon[0].decrementPP(pokemon[0]["moves"][0]);
+	var enemyB: GameObject;
+	enemyB=GameObject.FindGameObjectWithTag("wild");
+	enemy=enemyB.GetComponent('pokemon');
+	 print("damageWasDone");
+	enemy.incrementDecrementStat('hp', 5);
+	//GameObject.FindGameObjectWithTag("own").GetComponent('pokemon').decreasePP(0);
 	
-	print(enemy.stats['hp']);
-	print("hello");
-	if(enemy['base_stats']['hp'] <= 0)
-	{
+	print(enemy.stats);
+	
+	if(enemy.stats < -5) {
+		
 		Application.LoadLevel(0);
 		transform.position = mainPos;
+		
 	}
+	
 }
