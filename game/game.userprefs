@@ -2,9 +2,8 @@
   <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerJS.js">
     <Files>
-      <File FileName="Assets\BattleGui\Battlegui.js" Line="21" Column="3" />
-      <File FileName="Assets\Scripts\PlayerJS.js" Line="99" Column="3" />
-      <File FileName="Assets\Scripts\pokemon.js" Line="27" Column="20" />
+      <File FileName="Assets\Scripts\PlayerJS.js" Line="152" Column="14" />
+      <File FileName="Assets\Scripts\pokemon.js" Line="18" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

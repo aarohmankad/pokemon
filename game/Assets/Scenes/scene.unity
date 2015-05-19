@@ -97,6 +97,7 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
+    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &17069473
 GameObject:
@@ -2080,8 +2081,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: .5
+  m_Color: {r: .983795166, g: .985294104, b: .876621962, a: 1}
+  m_Intensity: .25999999
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -5391,7 +5392,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InGameMenuTog: 0
   mainPos: {x: 0, y: 0, z: 0}
-  CanvasObj: {fileID: 147880, guid: 9f9215ead7cb1934abfb56ca04a27f48, type: 2}
+  FinalGUI: {fileID: 0}
+  CanvasObj: {fileID: 171860, guid: 9f9215ead7cb1934abfb56ca04a27f48, type: 2}
+  pokeOwn: {fileID: 0}
+  poke: {fileID: 0}
 --- !u!114 &1506510769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7339,7 +7343,7 @@ Prefab:
     - target: {fileID: 11401390, guid: af667725919c7ba458803cb03de35394, type: 2}
       propertyPath: CanvasObj
       value: 
-      objectReference: {fileID: 147880, guid: 9f9215ead7cb1934abfb56ca04a27f48, type: 2}
+      objectReference: {fileID: 171860, guid: 9f9215ead7cb1934abfb56ca04a27f48, type: 2}
     - target: {fileID: 122468, guid: af667725919c7ba458803cb03de35394, type: 2}
       propertyPath: m_IsActive
       value: 1

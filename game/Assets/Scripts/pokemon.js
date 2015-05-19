@@ -1,6 +1,6 @@
 ﻿
 var index : String;
-var stats;
+var stats: int;
 var names;
 var type;
 var moves;
@@ -13,7 +13,8 @@ function Update () {
 
 function aggregateStats()
 {
-	stats = GameObject.Find('pokedex').GetComponent(pokedex).getStats(index);
+	
+	stats=50;
 	names = GameObject.Find('pokedex').GetComponent(pokedex).getNames(index);
 	type = GameObject.Find('pokedex').GetComponent(pokedex).getType(index);
 	moves = GameObject.Find('pokedex').GetComponent(pokedex).getMoves(index);
@@ -21,7 +22,7 @@ function aggregateStats()
 
 function incrementDecrementStat(stat, indeval)
 {
-	stats[stat] = stats[stat] + indeval;
+	//stats[stat] = stats[stat] + indeval;
 }
 
 function decreasePP(move)

@@ -7,9 +7,10 @@ var IGM;
 var mainPos : Vector3;
 var enemy;
 var pokemonModels;
-
+var FinalGUI : GameObject;
 var CanvasObj : GameObject;
-
+var pokeOwn : GameObject;
+var poke : GameObject;
 function OnLevelWasLoaded()
 {
 	var trainerRends;
@@ -20,7 +21,7 @@ function OnLevelWasLoaded()
 		{
 			if(Regex.IsMatch(pokemonModels[j].ToString(), enemy['name']['en']) && typeof(pokemonModels[j]) == GameObject)
 			{
-				var poke : GameObject;
+				//var poke : GameObject;
 				
 				//snow
 				if(Application.loadedLevel== 3)
@@ -55,10 +56,12 @@ function OnLevelWasLoaded()
 				poke.AddComponent('pokemon');
 				poke.GetComponent('pokemon').index = enemy['name']['en'];
 				poke.GetComponent('pokemon').aggregateStats();
+				poke.tag="wild";
+				
 			}
 			if(Regex.IsMatch(pokemonModels[j].ToString(), pokemon[0]['name']['en']) && typeof(pokemonModels[j]) == GameObject)
 			{
-				var pokeOwn : GameObject;
+				//var pokeOwn : GameObject;
 				
 				//snow
 				if(Application.loadedLevel== 3)
@@ -94,9 +97,11 @@ function OnLevelWasLoaded()
 				pokeOwn.AddComponent('pokemon');
 				pokeOwn.GetComponent('pokemon').index = pokemon[0]['name']['en'];
 				pokeOwn.GetComponent('pokemon').aggregateStats();
+				pokeOwn.tag="own";
 			}
 		}
 		Instantiate(CanvasObj, Vector3.zero, Quaternion.identity);
+	
 		GetComponent(MovementJS).enabled = false;
 		trainerRends = GameObject.Find("Pokemon Trainer").GetComponentsInChildren(Renderer);
 		
@@ -126,14 +131,57 @@ function Start(){
 }
 
 function Update(){
+
+
+ 
 	if(Application.loadedLevel != 0)
 	{
+		var poke2=GameObject.FindGameObjectWithTag("wild").GetComponent('pokemon');
+		var pokeOwn2=GameObject.FindGameObjectWithTag("own").GetComponent('pokemon');
+		
+		GameObject.Find("Name2").GetComponent('Text').text=pokeOwn2.name;
+		GameObject.Find("Name").GetComponent('Text').text=poke2.name;
+		if(poke2.stats>40)
+			GameObject.Find("HPBar").GetComponent('Image').color=Color.green;
+		if(poke2.stats<40 && poke2.stats>=30)
+			GameObject.Find("HPBar").GetComponent('Image').color=Color.yellow;
+		 if(poke2.stats<30)
+			GameObject.Find("HPBar").GetComponent('Image').color=Color.red;
+			
+			
+			if(pokeOwn2.stats>40)
+				GameObject.Find("HPBar2").GetComponent('Image').color=Color.green;
+			if(poke2.stats<40 && poke2.stats>=30)
+				GameObject.Find("HPBar2").GetComponent('Image').color=Color.yellow;
+			 if(pokeOwn2.stats<30)
+				GameObject.Find("HPBar2").GetComponent('Image').color=Color.red;
+				
+		GameObject.Find("Hp#").GetComponent('Text').text=poke2.stats+ "/50";
+		GameObject.Find("Hp#2").GetComponent('Text').text=pokeOwn2.stats+ "/50";
+		
 		if(Input.GetKeyDown(KeyCode.Escape))
 		{
 			transform.position = mainPos;
 			
 			Application.LoadLevel(0);
 		}
+		if(Input.GetKeyDown(KeyCode.F))
+		{
+		this.DoDamage(5,.75);
+		
+		}
+		if(Input.GetKeyDown(KeyCode.G))
+		{
+		this.DoDamage(10,.33);
+		
+		}
+		if(Input.GetKeyDown(KeyCode.H))
+		{
+		if(poke2.stats<45 && pokeOwn2.stats <45)
+		poke2.stats+=Random.Range(0,5);
+		pokeOwn2.stats+=Random.Range(0,5);
+		}
+		
 	}
 	
 }
@@ -216,16 +264,52 @@ function OnTriggerStay(other : Collider)
 	}
 }
 
-function DoDamage()
+function DoDamage(modifier, chance)
 {
-	enemy.incrementDecrementStat('hp', -1 * pokemon[0]["moves"][0]);
-	pokemon[0].decrementPP(pokemon[0]["moves"][0]);
+var poke2;
+var pokeOwn2;
+ poke2=GameObject.FindGameObjectWithTag("wild").GetComponent('pokemon');
+ pokeOwn2=GameObject.FindGameObjectWithTag("own").GetComponent('pokemon');
+	 if(Random.Range(0,1)<=chance)
+	 {
+	 poke2.stats=poke2.stats-modifier;
+	 
+	 }
+	 
+	 if(Random.Range(-1,1)>=0)
+	 {
+		modifier=5;
+		chance=.75;
+		if(Random.Range(0,1)<=chance)
+		 {
+		 pokeOwn2.stats=pokeOwn2.stats-modifier;
+		 
+		 }
+	 }
+	 else
+	 {
+	 modifier=10;
+		chance=.33;
+		if(Random.Range(0,1)<=chance)
+		 {
+		 pokeOwn2.stats=pokeOwn2.stats-modifier;
+		 
+		 }
+	 
+	 }
+
 	
-	print(enemy.stats['hp']);
-	print("hello");
-	if(enemy['base_stats']['hp'] <= 0)
+
+	if(poke2.stats <= 0)
 	{
+		Destroy(GameObject.Find("Ash"));
 		Application.LoadLevel(0);
+		
+		transform.position = mainPos;
+	}
+	if(pokeOwn2.stats <= 0)
+	{
+		Application.Quit();
 		transform.position = mainPos;
 	}
 }

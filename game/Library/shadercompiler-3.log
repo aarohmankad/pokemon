@@ -1,108 +1,108 @@
-Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-3-5628
+Base path: D:/Unityold/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-3-5968
 Cmd: getPlatforms
 Cmd: compileSnippet
-  api=0 type=0 insize=3359 outsize=743 kw=WATER_REFLECTIVE ok=1
+  api=1 type=0 insize=3359 outsize=449 kw=WATER_REFRACTIVE ok=1
 Cmd: compileSnippet
-  api=8 type=0 insize=3359 outsize=3072 kw=WATER_REFLECTIVE ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=3359 outsize=2511 kw=WATER_SIMPLE ok=1
+  api=0 type=0 insize=3359 outsize=636 kw=WATER_SIMPLE ok=1
 Cmd: compileSnippet
   api=1 type=1 insize=3359 outsize=810 kw=WATER_REFRACTIVE ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=3359 outsize=2566 kw=WATER_REFLECTIVE ok=1
+  api=0 type=1 insize=3359 outsize=823 kw=WATER_SIMPLE ok=1
 Cmd: compileSnippet
-  api=1 type=1 insize=3359 outsize=679 kw=WATER_SIMPLE ok=1
+  api=8 type=1 insize=3359 outsize=3323 kw=WATER_SIMPLE ok=1
 Cmd: compileSnippet
-  api=8 type=0 insize=5496 outsize=10132 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+  api=8 type=0 insize=5433 outsize=10132 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=1 type=0 insize=5496 outsize=2250 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+  api=1 type=0 insize=5433 outsize=2250 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=5496 outsize=1794 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+  api=1 type=0 insize=5433 outsize=1500 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5496 outsize=4492 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+  api=8 type=0 insize=5433 outsize=6874 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=1 type=0 insize=5496 outsize=1812 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_ON ok=1
+  api=1 type=0 insize=5433 outsize=2704 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=5496 outsize=3314 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+  api=8 type=0 insize=5433 outsize=12854 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5496 outsize=8253 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+  api=0 type=1 insize=5433 outsize=408 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=1 type=1 insize=5496 outsize=678 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+  api=1 type=1 insize=5433 outsize=416 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5496 outsize=1510 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+  api=0 type=1 insize=5433 outsize=964 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5496 outsize=2631 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_ON ok=1
+  api=0 type=1 insize=5433 outsize=744 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5496 outsize=2485 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+  api=0 type=1 insize=5433 outsize=585 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5496 outsize=2054 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+  api=4 type=1 insize=5433 outsize=2054 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=1 type=1 insize=5496 outsize=1136 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_ON ok=1
+  api=4 type=1 insize=5433 outsize=3175 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_ON ok=1
 Cmd: compileSnippet
-  api=1 type=0 insize=3081 outsize=1957 kw=POINT ok=1
+  api=0 type=0 insize=3081 outsize=2250 kw=DIRECTIONAL ok=1
 Cmd: compileSnippet
-  api=1 type=0 insize=3081 outsize=1799 kw=DIRECTIONAL ok=1
+  api=0 type=0 insize=3081 outsize=2515 kw=SPOT ok=1
 Cmd: compileSnippet
-  api=1 type=0 insize=3081 outsize=1976 kw=SPOT ok=1
+  api=4 type=0 insize=3081 outsize=6182 kw=SPOT ok=1
 Cmd: compileSnippet
-  api=8 type=0 insize=3081 outsize=9563 kw=SPOT ok=1
+  api=1 type=0 insize=3081 outsize=1957 kw=POINT_COOKIE ok=1
 Cmd: compileSnippet
-  api=1 type=0 insize=3081 outsize=1911 kw=DIRECTIONAL_COOKIE ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=3081 outsize=9433 kw=DIRECTIONAL_COOKIE ok=1
+  api=8 type=0 insize=3081 outsize=9563 kw=POINT_COOKIE ok=1
 Cmd: compileSnippet
   api=0 type=1 insize=3081 outsize=627 kw=DIRECTIONAL ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=3081 outsize=1029 kw=SPOT ok=1
+  api=1 type=1 insize=3081 outsize=641 kw=DIRECTIONAL ok=1
 Cmd: compileSnippet
-  api=8 type=1 insize=3081 outsize=4404 kw=SPOT ok=1
+  api=1 type=1 insize=3081 outsize=969 kw=SPOT ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=3081 outsize=2282 kw=DIRECTIONAL_COOKIE ok=1
+  api=0 type=1 insize=3081 outsize=905 kw=POINT_COOKIE ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=3081 outsize=3941 kw=POINT_COOKIE ok=1
 Cmd: compileSnippet
   api=8 type=0 insize=2921 outsize=7012 kw= ok=1
 Cmd: compileSnippet
-  api=8 type=1 insize=2921 outsize=2982 kw= ok=1
+  api=1 type=1 insize=2921 outsize=637 kw= ok=1
 Cmd: compileSnippet
-  api=8 type=0 insize=4920 outsize=8450 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+  api=0 type=0 insize=4892 outsize=2057 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
 Cmd: compileSnippet
-  api=8 type=0 insize=4920 outsize=8280 kw=LIGHTMAP_ON DIRLIGHTMAP_ON HDR_LIGHT_PREPASS_OFF ok=1
+  api=4 type=0 insize=4892 outsize=5491 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4920 outsize=5491 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
+  api=4 type=0 insize=4892 outsize=5385 kw=LIGHTMAP_ON DIRLIGHTMAP_ON HDR_LIGHT_PREPASS_OFF ok=1
 Cmd: compileSnippet
-  api=1 type=0 insize=4920 outsize=1809 kw=LIGHTMAP_ON DIRLIGHTMAP_ON HDR_LIGHT_PREPASS_ON ok=1
+  api=4 type=0 insize=4892 outsize=5491 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
 Cmd: compileSnippet
-  api=1 type=1 insize=4920 outsize=445 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+  api=8 type=0 insize=4892 outsize=8361 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4920 outsize=2477 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+  api=0 type=1 insize=4892 outsize=786 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4920 outsize=2956 kw=LIGHTMAP_ON DIRLIGHTMAP_ON HDR_LIGHT_PREPASS_OFF ok=1
+  api=8 type=1 insize=4892 outsize=3754 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=4920 outsize=737 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
+  api=1 type=1 insize=4892 outsize=390 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4920 outsize=2428 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
+  api=0 type=1 insize=4892 outsize=737 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
 Cmd: compileSnippet
-  api=8 type=1 insize=4920 outsize=4493 kw=LIGHTMAP_ON DIRLIGHTMAP_ON HDR_LIGHT_PREPASS_ON ok=1
+  api=1 type=1 insize=4892 outsize=664 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=4892 outsize=1024 kw=LIGHTMAP_ON DIRLIGHTMAP_ON HDR_LIGHT_PREPASS_ON ok=1
 Cmd: compileSnippet
   api=1 type=0 insize=2251 outsize=1059 kw=SHADOWS_DEPTH ok=1
 Cmd: compileSnippet
   api=1 type=0 insize=2251 outsize=1008 kw=SHADOWS_CUBE ok=1
 Cmd: compileSnippet
-  api=1 type=1 insize=2251 outsize=316 kw=SHADOWS_DEPTH ok=1
+  api=0 type=1 insize=2251 outsize=469 kw=SHADOWS_CUBE ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2251 outsize=1477 kw=SHADOWS_CUBE ok=1
+  api=8 type=1 insize=2251 outsize=2413 kw=SHADOWS_CUBE ok=1
 Cmd: compileSnippet
-  api=1 type=0 insize=2296 outsize=1297 kw=SHADOWS_NONATIVE ok=1
+  api=1 type=0 insize=2296 outsize=1297 kw=SHADOWS_NATIVE ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=2296 outsize=1790 kw=SHADOWS_SPLIT_SPHERES SHADOWS_NONATIVE ok=1
+  api=4 type=0 insize=2296 outsize=5223 kw=SHADOWS_NATIVE ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=2296 outsize=1790 kw=SHADOWS_SPLIT_SPHERES SHADOWS_NATIVE ok=1
+  api=8 type=0 insize=2296 outsize=7800 kw=SHADOWS_SPLIT_SPHERES SHADOWS_NATIVE ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=2296 outsize=958 kw=SHADOWS_NATIVE ok=1
+  api=1 type=1 insize=2296 outsize=832 kw=SHADOWS_NATIVE ok=1
 Cmd: compileSnippet
   api=4 type=1 insize=2296 outsize=2802 kw=SHADOWS_NATIVE ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2296 outsize=3549 kw=SHADOWS_SPLIT_SPHERES SHADOWS_NATIVE ok=1
+  api=0 type=1 insize=2296 outsize=1225 kw=SHADOWS_SPLIT_SPHERES SHADOWS_NATIVE ok=1
 Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
 
 
