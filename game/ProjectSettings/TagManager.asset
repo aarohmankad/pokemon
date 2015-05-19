@@ -12,13 +12,6 @@ TagManager:
   - 
   - BotPan
   - text
-  - own
-  - wild
-  - move1
-  - move2
-  - move3
-  - move4
-  - playa
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
